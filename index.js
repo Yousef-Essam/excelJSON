@@ -15,5 +15,5 @@ function XLSXToJson(xlsx, sheetName) {
     return XLSX.utils.sheet_to_json(worksheet);
 }
 
-module.exports = jsonToXLSX;
-module.exports = XLSXToJson;
+module.exports.jsonToXLSX = jsonToXLSX;
+module.exports.XLSXToJson = XLSXToJson;
