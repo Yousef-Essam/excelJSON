@@ -9,9 +9,9 @@ A simple package based on the xlsx package to covert from Spreadsheet data to JS
 `const excelJSON = require('excelJSON')`
 ### To convert Spreadsheet data to JSON data
 
-`let xlsxFile = await fs.readFile('file.xlsx');`  
-`let convertedJSON = excelJSON.XLSXToJson(xlsxFile, 'Sheet Name')`  
-`// The second parameter is required and it represents the sheet name inside the Spreadsheet file.`
+`let xlsxFile = await fs.readFile('file.xlsx');  
+let convertedJSON = excelJSON.XLSXToJson(xlsxFile, 'Sheet Name')  
+// The second parameter is required and it represents the sheet name inside the Spreadsheet file.`
 ### To convert JSON data to Spreadsheet data
 
 `let jsonFile = JSON.parse(await fs.readFile('file.json', 'utf-8'));`  
