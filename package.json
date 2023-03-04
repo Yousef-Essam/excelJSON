@@ -1,11 +1,9 @@
 {
-  "name": "exceljson",
+  "name": "excel2json_converter",
   "version": "1.0.0",
   "description": "A simple package based on the \"XLSX\" package that can be used to convert XLSX data to JSON data and vice versa.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yousef-Essam/excelJSON.git"

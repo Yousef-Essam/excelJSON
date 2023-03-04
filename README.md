@@ -2,11 +2,11 @@
 A simple package based on the xlsx package to covert from Spreadsheet data to JSON and vice versa
 
 ## Installation
-`npm install excelJSON`
+`npm install excel2json_converter`
 
 ## Usage
 ### Importing the package
-`const excelJSON = require('excelJSON')`
+`const excelJSON = require('excel2json_converter')`
 ### To convert Spreadsheet data to JSON data
 
 `let xlsxFile = await fs.readFile('file.xlsx');`   
